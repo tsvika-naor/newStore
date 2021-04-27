@@ -21,6 +21,7 @@ const Installation = () => {
     useEffect(() => {
 
         axios.get(install_url).then(ret => {
+            console.log(ret)
             setBtn(ret.data)
         })
     }
