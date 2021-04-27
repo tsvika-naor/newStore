@@ -1,0 +1,281 @@
+/* Navigation bar */
+
+position: absolute;
+width: 1920px;
+height: 100px;
+left: 228px;
+top: 510px;
+
+
+
+/* Background */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Snow */
+background: #FFFFFF;
+
+
+/* logo 1 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 33px;
+top: 32px;
+
+background: url(logo.png);
+
+
+/* Tab */
+
+position: absolute;
+left: 62.34%;
+right: 32.14%;
+top: 95%;
+bottom: 0%;
+
+background: #5756B3;
+
+
+/* Menu */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 505px;
+height: 24px;
+left: calc(50% - 505px/2 + 509.5px);
+top: calc(50% - 24px/2 + 12px);
+
+
+
+/* Overview */
+
+position: static;
+left: 0%;
+right: 84.95%;
+top: 0%;
+bottom: 0%;
+
+/* Body / Body 1 */
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 84px;
+
+
+/* Reports */
+
+position: static;
+left: 31.68%;
+right: 55.84%;
+top: 0%;
+bottom: 0%;
+
+/* Body / Body 1 */
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+color: #8484A0;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 84px;
+
+
+/* Billing */
+
+position: static;
+left: 60.79%;
+right: 29.7%;
+top: 0%;
+bottom: 0%;
+
+/* Body / Body 1 */
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+color: #8484A0;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 84px;
+
+
+/* Support */
+
+position: static;
+left: 86.93%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Body / Body 1 */
+font-family: Poppins;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+color: #8484A0;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 84px;
+
+
+/* Option */
+
+position: absolute;
+width: 24px;
+height: 24px;
+right: 60px;
+top: calc(50% - 24px/2 + 10px);
+
+
+
+/* Icon */
+
+position: absolute;
+width: 20px;
+right: 2px;
+top: 8.33%;
+bottom: 8.31%;
+
+background: #A1A3D4;
+
+
+/* Logo */
+
+position: absolute;
+width: 129px;
+height: 32px;
+left: 81px;
+top: 46px;
+
+
+
+/* Logo */
+
+position: absolute;
+left: -0.78%;
+right: -0.78%;
+top: 21.88%;
+bottom: 3.12%;
+
+
+
+/* logo */
+
+position: absolute;
+visibility: hidden;
+width: 21px;
+height: 21px;
+left: -1px;
+top: calc(50% - 21px/2 + 1.5px);
+
+
+
+/* RUBINAI */
+
+position: absolute;
+width: 99px;
+height: 24px;
+left: 31px;
+top: calc(50% - 24px/2 + 3px);
+
+font-family: Archivo VF Beta;
+font-style: normal;
+font-weight: normal;
+font-size: 20.5076px;
+line-height: 24px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 45px;
+height: 45px;
+left: 1780px;
+top: 38px;
+
+background: url(.png);
+
+
+/* logo2 1 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 33px;
+top: 32px;
+
+background: url(logo2.png);
+
+
+/* logo3 1 */
+
+position: absolute;
+width: 60px;
+height: 60px;
+left: 33px;
+top: 32px;
+
+background: url(logo3.png);
+
+
+/* logo4 1 */
+
+position: absolute;
+width: 60px;
+height: 60.22px;
+left: 33px;
+top: 32px;
+
+background: url(logo4.png);

@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  z-index: 100;
+  top: 0rem;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+  //   background-color: blue;
+  justify-content: space-between;
+
+  .left_header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    // background: red;
+    // left: -2.7rem;
+    top: 0.7rem;
+
+    .ul_left {
+      display: flex;
+      position: relative;
+      //   justify-content: center;
+      //   align-items: center;
+      //   left: -2.7rem;
+      //   top: 2.5rem;
+
+      li {
+        list-style-type: none;
+        margin-left: 2rem;
+        font-weight: 300;
+        size: 16px;
+        // line-height: 24px;
+        color: black;
+        font-style: normal;
+        letter-spacing: 0.44px;
+        position: relative;
+        top: 2rem;
+        left: 0rem;
+
+        .logo_header {
+          width: 60px;
+          height: 60.22px;
+          position: relative;
+          top: -1.2rem;
+          z-index: 2;
+        }
+      }
+    }
+  }
+  .right_header {
+    .ul_right {
+      display: flex;
+      position: relative;
+      top: 2rem;
+      right: 2.5rem;
+
+      li {
+        list-style-type: none;
+        margin-left: 4rem;
+        font-weight: 300;
+        size: 16px;
+        line-height: 24px;
+        color: #8484a0;
+        font-style: normal;
+        letter-spacing: 0.44px;
+        display: flex;
+        align-items: center;
+
+        // font: Poppins;
+
+        &:hover {
+          color: #000000;
+          cursor: pointer;
+        }
+
+        .img_profile {
+          width: 50px;
+          position: relative;
+          left: 2rem;
+        }
+
+        .img_option {
+          position: relative;
+          left: -1rem;
+        }
+
+        .link {
+          text-decoration: none;
+          color: inherit;
+          height: 3.3rem;
+          position: relative;
+          top: 1rem;
+          //   border: 32px solid red;
+        }
+
+        .active {
+          //   background: black;
+
+          display: flex;
+          justify-content: center;
+          border-bottom: 5px solid #5756b3;
+          width: 7rem;
+        }
+      }
+    }
+  }
+}

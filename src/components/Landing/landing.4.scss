@@ -1,0 +1,56 @@
+.bg-gray {
+  background-color: #f5f6fb;
+}
+
+.left_section {
+  margin-left: 4rem;
+  margin-top: 5.5rem;
+  color: #383874;
+  #text_hello {
+    margin: 0;
+    font-size: 48px;
+    font-family: Poppins;
+  }
+  #profile_name {
+    font-size: 48px;
+    font-family: Poppins;
+    color: #66c8ff;
+  }
+  h5 {
+    line-height: 36px;
+    font-weight: 600;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 50px;
+  }
+
+  p {
+    // display: inline-block;
+    width: 371px;
+    height: 64px;
+    color: #383874;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+
+    a {
+      color: limegreen;
+    }
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 72px;
+    font-family: Poppins;
+    letter-spacing: -1.75px;
+    line-height: 0px;
+  }
+
+  .left_section_bottom {
+    margin-top: 7rem;
+  }
+}
